@@ -17,4 +17,3 @@ app.listen(8080,()=>{
 //http://localhost:8080/moduele1
 //http://localhost:8080/module1/raj
 //http://localhost:8080/module2  (GET)
-//http://localhost
