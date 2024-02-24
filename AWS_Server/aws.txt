@@ -1,0 +1,16 @@
+deploying node project to aws server
+=========================================
+aws is paid service only free upto 750 hrs
+-------------------------------------------
+1- Create gitignore file
+> npx gitignore node
+   - ignore the "movement" of libraries(node_nmodules) to GitHub
+
+
+2- Download the express module
+>yarn add express --save
+
+3- Develope rest services
+>server.js
+
+4- Move server to GitHub
