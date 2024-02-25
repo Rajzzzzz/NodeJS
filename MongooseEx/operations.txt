@@ -1,0 +1,10 @@
+To add Libraries -
+
+>yarn add express @types/express mongoose @types/mongoose body-parser @types/body-p
+arser
+
+create server.ts file
+
+0QYJCcOElWDKlYV7
+
+link - mongodb+srv://rajeshwarraj:0QYJCcOElWDKlYV7@cluster0.7w2kw0g.mongodb.net/Mongoose?retryWrites=true&w=majority&appName=Cluster0

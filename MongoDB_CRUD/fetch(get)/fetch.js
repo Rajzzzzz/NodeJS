@@ -9,7 +9,7 @@ var NodeJS = mongodb.MongoClient; //to create client (sample is client)
 //sample is the client here 
 //create the module(fetch is the name of the module) with the help of router function
 var fetch = express.Router().get("/", function (req, res) {
-    NodeJS.connect("mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.mongodb.net/explorer/NodeJS/accounts?retryWrites=true&w=majority", function (err, connection) {
+    NodeJS.connect("mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.i71l2zt.mongodb.net/NodeJS?retryWrites=true&w=majority&appName=Cluster0", function (err, connection) {
         if (err)
             throw err; //if client fails to connect with mongodb (to handle error)
         else { //if connection success 

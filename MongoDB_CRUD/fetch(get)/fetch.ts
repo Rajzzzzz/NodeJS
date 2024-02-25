@@ -10,7 +10,7 @@ let NodeJS:any = mongodb.MongoClient; //to create client (sample is client)
 
 //create the module(fetch is the name of the module) with the help of router function
 let fetch = express.Router().get("/",(req:any,res:any):any=>{//to connect client
-    NodeJS.connect("mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.mongodb.net/explorer/NodeJS/accounts?retryWrites=true&w=majority",(err:any,connection:any)=>{
+    NodeJS.connect("mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.i71l2zt.mongodb.net/NodeJS?retryWrites=true&w=majority&appName=Cluster0",(err:any,connection:any)=>{
         if(err) throw err;//if client fails to connect with mongodb (to handle error)
         else{//if connection success 
             let db = connection.db("NodeJS"); //sample_analytics is the reference in the database

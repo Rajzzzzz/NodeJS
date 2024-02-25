@@ -12,3 +12,61 @@ MongoDB_CRUD
 
 ******************************************************
     
+    - MongoDB is NoSQL database.
+
+    - MongoDB supports the JSON
+
+    - MongoDB is the 'light' weight database.
+
+    - MongoDB database follows the "mongodb" protocol.
+
+    - MongoDB by default running on port 27017.
+
+    - MongoDB follows the client server architecture.
+
+Terminology
+-----------
+          SQL                              NoSQL
+
+Ex.
+    Oracle, MySQL, SQLServer               MongoDB, CassandraDB
+
+    Database                               Database
+
+    Tables                                 Collection
+
+    Records                                Documents
+
+    Column                                 Field
+
+    
+Libraries
+----------
+
+1- MongoDB
+      - this Library helps to connect to mongodb database without schema
+
+
+      "employees" (table)
+
+      employees.insert({"eid":1,"ename":"eone","esal":10000});
+      employees.insert({pid:222,pname:"laptop",pcost:20000}); // it don't have any schema so we can insert data like this also
+
+//to overcome schema prblm we use mongoose
+
+2- mongoose
+       - this Library helps to connect to mongodb database with schema
+
+
+MongoDB provides the cloud environment in the form of MongoDB Atlas
+--------------------------------------------------------------------
+
+database name : raj_nodejs
+
+Collection Name : products
+
+username : admin
+
+password : admin
+
+connection url : mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.i71l2zt.mongodb.net/NodeJS?retryWrites=true&w=majority&appName=Cluster0

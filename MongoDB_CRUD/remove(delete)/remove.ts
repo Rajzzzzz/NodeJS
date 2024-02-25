@@ -6,7 +6,7 @@ let NodeJS:any = mongodb.MongoClient;
 
 
 let remove:any = express.Router().delete("/",(req:any,res:any):any=>{
-    NodeJS.connect("mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.mongodb.net/explorer/NodeJS/accounts?retryWrites=true&w=majority",(err:any,connection:any)=>{
+    NodeJS.connect("mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.i71l2zt.mongodb.net/NodeJS?retryWrites=true&w=majority&appName=Cluster0",(err:any,connection:any)=>{
         if(err) throw err;
         else{
             let db = connection.db("NodeJS");

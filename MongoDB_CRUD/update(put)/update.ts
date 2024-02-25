@@ -5,7 +5,7 @@ import * as mongodb from "mongodb";
 let NodeJS:any = mongodb.MongoClient;
 
 let update:any = express.Router().put("/",(req:any,res:any):any=>{
-    NodeJS.connect("mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.mongodb.net/explorer/NodeJS/accounts?retryWrites=true&w=majority",(err:any,connection:any):any=>{
+    NodeJS.connect("mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.i71l2zt.mongodb.net/NodeJS?retryWrites=true&w=majority&appName=Cluster0",(err:any,connection:any):any=>{
         if(err) throw err;
         else{
             let db = connection.db("NodeJS");

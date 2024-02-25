@@ -4,7 +4,7 @@ var express = require("express");
 var mongodb = require("mongodb");
 var NodeJS = mongodb.MongoClient;
 var update = express.Router().put("/", function (req, res) {
-    NodeJS.connect("mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.mongodb.net/explorer/NodeJS/accounts?retryWrites=true&w=majority", function (err, connection) {
+    NodeJS.connect("mongodb+srv://khushisrivastavaahq:sasta@123@cluster0.i71l2zt.mongodb.net/NodeJS?retryWrites=true&w=majority&appName=Cluster0", function (err, connection) {
         if (err)
             throw err;
         else {
